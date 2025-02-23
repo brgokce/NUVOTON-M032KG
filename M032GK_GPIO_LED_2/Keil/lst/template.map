@@ -1,0 +1,400 @@
+Component: Arm Compiler for Embedded 6.22 Tool: armlink [5ee90200]
+
+==============================================================================
+
+Small function inlining results
+
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x1ee in aeabi_sdivfast.o(.text).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x1f0 in aeabi_sdivfast.o(.text_divfast).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0xc in aeabi_sdivfast_div0.o(.text).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x204 in aeabi_sdivfast_div0.o(.text).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x1f0 in aeabi_sdivfast_div0.o(.text_divfast).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x18 in uidiv_div0.o(.text).
+Inlined Instruction: BX       lr
+Inlined function __aeabi_idiv0 from idiv0.o at offset 0x42 in idiv_div0.o(.text).
+Inlined Instruction: BX       lr
+Inlined total of 7 calls.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../M031BSP/Library/Device/Nuvoton/M031/Source/ARM/startup_M031Series.s 0x00000000   Number         0  startup_m031series.o ABSOLUTE
+    ../clib/division.s                       0x00000000   Number         0  aeabi_sdivfast.o ABSOLUTE
+    ../clib/division.s                       0x00000000   Number         0  aeabi_sdivfast_div0.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv_div0.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  idiv_div0.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  idiv0.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/stdio/puts.c            0x00000000   Number         0  puts.o ABSOLUTE
+    ../clib/microlib/stdio/puts.c            0x00000000   Number         0  puts_e.o ABSOLUTE
+    clk.c                                    0x00000000   Number         0  clk.o ABSOLUTE
+    clk_config.c                             0x00000000   Number         0  clk_config.o ABSOLUTE
+    gpio.c                                   0x00000000   Number         0  gpio.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    pin_config.c                             0x00000000   Number         0  pin_config.o ABSOLUTE
+    retarget.c                               0x00000000   Number         0  retarget.o ABSOLUTE
+    system_M031Series.c                      0x00000000   Number         0  system_m031series.o ABSOLUTE
+    timer.c                                  0x00000000   Number         0  timer.o ABSOLUTE
+    uart.c                                   0x00000000   Number         0  uart.o ABSOLUTE
+    RESET                                    0x00000000   Section      192  startup_m031series.o(RESET)
+    .ARM.Collect$$$$00000000                 0x000000c0   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x000000c0   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x000000c4   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x000000c8   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x000000c8   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x000000c8   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    __lit__00000000                          0x000000d0   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .ARM.Collect$$$$0000000D                 0x000000d0   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x000000d0   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x000000d0   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x000000d4   Section      128  startup_m031series.o(.text)
+    Default_Handler                          0x00000113   Thumb Code     2  startup_m031series.o(.text)
+    .text                                    0x00000154   Section        0  uidiv_div0.o(.text)
+    .text                                    0x00000194   Section       48  init.o(.text)
+    [Anonymous Symbol]                       0x000001c4   Section        0  clk.o(.text.CLK_DisablePLL)
+    [Anonymous Symbol]                       0x00000238   Section        0  clk.o(.text.CLK_EnableModuleClock)
+    __arm_cp.18_0                            0x00000254   Number         4  clk.o(.text.CLK_EnableModuleClock)
+    __arm_cp.18_1                            0x00000258   Number         4  clk.o(.text.CLK_EnableModuleClock)
+    [Anonymous Symbol]                       0x0000025c   Section        0  clk.o(.text.CLK_EnableXtalRC)
+    __arm_cp.16_0                            0x00000268   Number         4  clk.o(.text.CLK_EnableXtalRC)
+    [Anonymous Symbol]                       0x0000026c   Section        0  clk.o(.text.CLK_GetPCLK0Freq)
+    [Anonymous Symbol]                       0x00000284   Section        0  clk.o(.text.CLK_GetPCLK1Freq)
+    __arm_cp.7_0                             0x0000029c   Number         4  clk.o(.text.CLK_GetPCLK1Freq)
+    [Anonymous Symbol]                       0x000002a0   Section        0  clk.o(.text.CLK_SetHCLK)
+    [Anonymous Symbol]                       0x00000338   Section        0  clk.o(.text.CLK_SetModuleClock)
+    __arm_cp.14_0                            0x00000380   Number         4  clk.o(.text.CLK_SetModuleClock)
+    [Anonymous Symbol]                       0x000003a4   Section        0  clk.o(.text.CLK_WaitClockReady)
+    __arm_cp.11_0                            0x000003fc   Number         4  clk.o(.text.CLK_WaitClockReady)
+    __arm_cp.11_1                            0x00000400   Number         4  clk.o(.text.CLK_WaitClockReady)
+    __arm_cp.11_2                            0x00000404   Number         4  clk.o(.text.CLK_WaitClockReady)
+    [Anonymous Symbol]                       0x00000408   Section        0  gpio.o(.text.GPIO_SetMode)
+    [Anonymous Symbol]                       0x00000500   Section        0  retarget.o(.text.ProcessHardFault)
+    __arm_cp.1_0                             0x00000528   Number         4  retarget.o(.text.ProcessHardFault)
+    __arm_cp.1_2                             0x0000053c   Number         4  retarget.o(.text.ProcessHardFault)
+    [Anonymous Symbol]                       0x00000540   Section        0  retarget.o(.text.SH_Return)
+    [Anonymous Symbol]                       0x00000544   Section        0  retarget.o(.text.SendChar)
+    __arm_cp.3_0                             0x00000590   Number         4  retarget.o(.text.SendChar)
+    [Anonymous Symbol]                       0x00000594   Section        0  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_0                             0x0000060c   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_1                             0x00000610   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_2                             0x00000614   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_3                             0x00000618   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_5                             0x00000620   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_6                             0x00000624   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_7                             0x00000628   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_8                             0x0000062c   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_9                             0x00000630   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    __arm_cp.0_10                            0x00000634   Number         4  system_m031series.o(.text.SystemCoreClockUpdate)
+    [Anonymous Symbol]                       0x00000638   Section        0  system_m031series.o(.text.SystemInit)
+    __arm_cp.1_1                             0x0000068c   Number         4  system_m031series.o(.text.SystemInit)
+    [Anonymous Symbol]                       0x00000690   Section        0  uart.o(.text.UART_Open)
+    __arm_cp.6_0                             0x000007e8   Number         4  uart.o(.text.UART_Open)
+    __arm_cp.6_1                             0x000007ec   Number         4  uart.o(.text.UART_Open)
+    __arm_cp.6_3                             0x000007f0   Number         4  uart.o(.text.UART_Open)
+    __arm_cp.6_4                             0x000007f4   Number         4  uart.o(.text.UART_Open)
+    __arm_cp.6_5                             0x000007f8   Number         4  uart.o(.text.UART_Open)
+    __arm_cp.6_6                             0x000007fc   Number         4  uart.o(.text.UART_Open)
+    __arm_cp.6_7                             0x00000800   Number         4  uart.o(.text.UART_Open)
+    __arm_cp.6_8                             0x00000804   Number         4  uart.o(.text.UART_Open)
+    __arm_cp.6_9                             0x00000808   Number         4  uart.o(.text.UART_Open)
+    [Anonymous Symbol]                       0x0000080c   Section        0  clk_config.o(.text.clk_config_init)
+    __arm_cp.7_0                             0x000008b4   Number         4  clk_config.o(.text.clk_config_init)
+    __arm_cp.7_1                             0x000008b8   Number         4  clk_config.o(.text.clk_config_init)
+    __arm_cp.7_2                             0x000008bc   Number         4  clk_config.o(.text.clk_config_init)
+    __arm_cp.7_3                             0x000008c0   Number         4  clk_config.o(.text.clk_config_init)
+    __arm_cp.7_4                             0x000008c4   Number         4  clk_config.o(.text.clk_config_init)
+    __arm_cp.7_5                             0x000008c8   Number         4  clk_config.o(.text.clk_config_init)
+    [Anonymous Symbol]                       0x000008cc   Section        0  retarget.o(.text.fputc)
+    [Anonymous Symbol]                       0x000008d8   Section        0  main.o(.text.main)
+    __arm_cp.1_0                             0x00000a04   Number         4  main.o(.text.main)
+    __arm_cp.1_1                             0x00000a08   Number         4  main.o(.text.main)
+    __arm_cp.1_2                             0x00000a0c   Number         4  main.o(.text.main)
+    __arm_cp.1_4                             0x00000a1c   Number         4  main.o(.text.main)
+    __arm_cp.1_5                             0x00000a20   Number         4  main.o(.text.main)
+    __arm_cp.1_6                             0x00000a24   Number         4  main.o(.text.main)
+    __arm_cp.1_7                             0x00000a28   Number         4  main.o(.text.main)
+    [Anonymous Symbol]                       0x00000a2c   Section        0  pin_config.o(.text.pin_config_init)
+    __arm_cp.8_0                             0x00000a7c   Number         4  pin_config.o(.text.pin_config_init)
+    __arm_cp.8_1                             0x00000a80   Number         4  pin_config.o(.text.pin_config_init)
+    __arm_cp.8_2                             0x00000a84   Number         4  pin_config.o(.text.pin_config_init)
+    i.__scatterload_copy                     0x00000a88   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x00000a96   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x00000a98   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.puts                                   0x00000aa8   Section        0  puts.o(i.puts)
+    [Anonymous Symbol]                       0x00000ac8   Section        0  clk.o(.rodata..L__const.CLK_DisableModuleClock.u32ClkTbl)
+    [Anonymous Symbol]                       0x00000ad4   Section        0  uart.o(.rodata..L__const.UART_SelectIrDAMode.u32ClkTbl)
+    [Anonymous Symbol]                       0x00000aec   Section        0  uart.o(.rodata.cst4)
+    g_ICE_Conneced                           0x2000000c   Data           4  retarget.o(.data.g_ICE_Conneced)
+    [Anonymous Symbol]                       0x2000000c   Section        0  retarget.o(.data.g_ICE_Conneced)
+    STACK                                    0x20000068   Section      512  startup_m031series.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$PE$A:L22$X:L11$S22$IEEE1$IW$~IW$USESV6$~STKCKD$USESV7$~SHL$OTIME$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_m031series.o(RESET)
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __main                                   0x000000c1   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x000000c1   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x000000c5   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x000000c9   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x000000c9   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x000000c9   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x000000c9   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x000000d1   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x000000d1   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    Reset_Handler                            0x000000d5   Thumb Code    38  startup_m031series.o(.text)
+    NMI_Handler                              0x000000fb   Thumb Code     2  startup_m031series.o(.text)
+    HardFault_Handler                        0x000000fd   Thumb Code    16  startup_m031series.o(.text)
+    SVC_Handler                              0x0000010d   Thumb Code     2  startup_m031series.o(.text)
+    PendSV_Handler                           0x0000010f   Thumb Code     2  startup_m031series.o(.text)
+    SysTick_Handler                          0x00000111   Thumb Code     2  startup_m031series.o(.text)
+    ACMP01_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    ADC_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    BOD_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    BPWM0_IRQHandler                         0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    BPWM1_IRQHandler                         0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    CKFAIL_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    EINT024_IRQHandler                       0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    EINT135_IRQHandler                       0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    GPABGH_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    GPCDEF_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    I2C0_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    I2C1_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    ISP_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    PDMA_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    PWM0_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    PWM1_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    PWRWU_IRQHandler                         0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    QSPI0_IRQHandler                         0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    RTC_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    SPI0_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    TMR0_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    TMR1_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    TMR2_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    TMR3_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    UART02_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    UART13_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    UART46_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    UART57_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    USBD_IRQHandler                          0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    USCI01_IRQHandler                        0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    WDT_IRQHandler                           0x00000113   Thumb Code     0  startup_m031series.o(.text)
+    SH_DoCommand                             0x00000115   Thumb Code    10  startup_m031series.o(.text)
+    __PC                                     0x0000011f   Thumb Code     6  startup_m031series.o(.text)
+    __aeabi_uidiv                            0x00000155   Thumb Code     0  uidiv_div0.o(.text)
+    __aeabi_uidivmod                         0x00000155   Thumb Code    62  uidiv_div0.o(.text)
+    __scatterload                            0x00000195   Thumb Code    38  init.o(.text)
+    __scatterload_rt2                        0x00000195   Thumb Code     0  init.o(.text)
+    CLK_DisablePLL                           0x000001c5   Thumb Code   116  clk.o(.text.CLK_DisablePLL)
+    CLK_EnableModuleClock                    0x00000239   Thumb Code    28  clk.o(.text.CLK_EnableModuleClock)
+    CLK_EnableXtalRC                         0x0000025d   Thumb Code    12  clk.o(.text.CLK_EnableXtalRC)
+    CLK_GetPCLK0Freq                         0x0000026d   Thumb Code    24  clk.o(.text.CLK_GetPCLK0Freq)
+    CLK_GetPCLK1Freq                         0x00000285   Thumb Code    24  clk.o(.text.CLK_GetPCLK1Freq)
+    CLK_SetHCLK                              0x000002a1   Thumb Code   152  clk.o(.text.CLK_SetHCLK)
+    CLK_SetModuleClock                       0x00000339   Thumb Code    72  clk.o(.text.CLK_SetModuleClock)
+    CLK_WaitClockReady                       0x000003a5   Thumb Code    88  clk.o(.text.CLK_WaitClockReady)
+    GPIO_SetMode                             0x00000409   Thumb Code   248  gpio.o(.text.GPIO_SetMode)
+    ProcessHardFault                         0x00000501   Thumb Code    40  retarget.o(.text.ProcessHardFault)
+    SH_Return                                0x00000541   Thumb Code     4  retarget.o(.text.SH_Return)
+    SendChar                                 0x00000545   Thumb Code    76  retarget.o(.text.SendChar)
+    SystemCoreClockUpdate                    0x00000595   Thumb Code   120  system_m031series.o(.text.SystemCoreClockUpdate)
+    SystemInit                               0x00000639   Thumb Code    84  system_m031series.o(.text.SystemInit)
+    UART_Open                                0x00000691   Thumb Code   344  uart.o(.text.UART_Open)
+    clk_config_init                          0x0000080d   Thumb Code   168  clk_config.o(.text.clk_config_init)
+    fputc                                    0x000008cd   Thumb Code    12  retarget.o(.text.fputc)
+    main                                     0x000008d9   Thumb Code   300  main.o(.text.main)
+    pin_config_init                          0x00000a2d   Thumb Code    80  pin_config.o(.text.pin_config_init)
+    __scatterload_copy                       0x00000a89   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x00000a97   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x00000a99   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    puts                                     0x00000aa9   Thumb Code    28  puts.o(i.puts)
+    gau32ClkSrcTbl                           0x00000af0   Data          32  system_m031series.o(.rodata.gau32ClkSrcTbl)
+    Region$$Table$$Base                      0x00000b10   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00000b30   Number         0  anon$$obj.o(Region$$Table)
+    CyclesPerUs                              0x20000000   Data           4  system_m031series.o(.data.CyclesPerUs)
+    PllClock                                 0x20000004   Data           4  system_m031series.o(.data.PllClock)
+    SystemCoreClock                          0x20000008   Data           4  system_m031series.o(.data.SystemCoreClock)
+    __stdout                                 0x20000010   Data          84  retarget.o(.bss.__stdout)
+    g_CLK_i32ErrCode                         0x20000064   Data           4  clk.o(.bss.g_CLK_i32ErrCode)
+    __initial_sp                             0x20000268   Data           0  startup_m031series.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000d5
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00000b40, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00000b30, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x000000c0   Data   RO           19    RESET               startup_m031series.o
+    0x000000c0   0x000000c0   0x00000000   Code   RO          275  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x000000c0   0x000000c0   0x00000004   Code   RO          286    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x000000c4   0x000000c4   0x00000004   Code   RO          289    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x000000c8   0x000000c8   0x00000000   Code   RO          291    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x000000c8   0x000000c8   0x00000000   Code   RO          293    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x000000c8   0x000000c8   0x00000008   Code   RO          294    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x000000d0   0x000000d0   0x00000000   Code   RO          296    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x000000d0   0x000000d0   0x00000000   Code   RO          298    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x000000d0   0x000000d0   0x00000004   Code   RO          287    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x000000d4   0x000000d4   0x00000080   Code   RO           20  * .text               startup_m031series.o
+    0x00000154   0x00000154   0x0000003e   Code   RO          304    .text               mc_p.l(uidiv_div0.o)
+    0x00000192   0x00000192   0x00000002   PAD
+    0x00000194   0x00000194   0x00000030   Code   RO          310    .text               mc_p.l(init.o)
+    0x000001c4   0x000001c4   0x00000074   Code   RO           67    .text.CLK_DisablePLL  clk.o
+    0x00000238   0x00000238   0x00000024   Code   RO           63    .text.CLK_EnableModuleClock  clk.o
+    0x0000025c   0x0000025c   0x00000010   Code   RO           59    .text.CLK_EnableXtalRC  clk.o
+    0x0000026c   0x0000026c   0x00000018   Code   RO           39    .text.CLK_GetPCLK0Freq  clk.o
+    0x00000284   0x00000284   0x0000001c   Code   RO           41    .text.CLK_GetPCLK1Freq  clk.o
+    0x000002a0   0x000002a0   0x00000098   Code   RO           53    .text.CLK_SetHCLK   clk.o
+    0x00000338   0x00000338   0x0000006c   Code   RO           55    .text.CLK_SetModuleClock  clk.o
+    0x000003a4   0x000003a4   0x00000064   Code   RO           49    .text.CLK_WaitClockReady  clk.o
+    0x00000408   0x00000408   0x000000f8   Code   RO           83    .text.GPIO_SetMode  gpio.o
+    0x00000500   0x00000500   0x00000040   Code   RO           99    .text.ProcessHardFault  retarget.o
+    0x00000540   0x00000540   0x00000004   Code   RO           97    .text.SH_Return     retarget.o
+    0x00000544   0x00000544   0x00000050   Code   RO          103    .text.SendChar      retarget.o
+    0x00000594   0x00000594   0x000000a4   Code   RO            2    .text.SystemCoreClockUpdate  system_m031series.o
+    0x00000638   0x00000638   0x00000058   Code   RO            4    .text.SystemInit    system_m031series.o
+    0x00000690   0x00000690   0x0000017c   Code   RO          179    .text.UART_Open     uart.o
+    0x0000080c   0x0000080c   0x000000c0   Code   RO          240    .text.clk_config_init  clk_config.o
+    0x000008cc   0x000008cc   0x0000000c   Code   RO          113    .text.fputc         retarget.o
+    0x000008d8   0x000008d8   0x00000154   Code   RO          207    .text.main          main.o
+    0x00000a2c   0x00000a2c   0x0000005c   Code   RO          265    .text.pin_config_init  pin_config.o
+    0x00000a88   0x00000a88   0x0000000e   Code   RO          314    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x00000a96   0x00000a96   0x00000002   Code   RO          315    i.__scatterload_null  mc_p.l(handlers.o)
+    0x00000a98   0x00000a98   0x0000000e   Code   RO          316    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x00000aa6   0x00000aa6   0x00000002   PAD
+    0x00000aa8   0x00000aa8   0x00000020   Code   RO          276    i.puts              mc_p.l(puts.o)
+    0x00000ac8   0x00000ac8   0x0000000c   Data   RO           74    .rodata..L__const.CLK_DisableModuleClock.u32ClkTbl  clk.o
+    0x00000ad4   0x00000ad4   0x00000018   Data   RO          195    .rodata..L__const.UART_SelectIrDAMode.u32ClkTbl  uart.o
+    0x00000aec   0x00000aec   0x00000004   Data   RO          196    .rodata.cst4        uart.o
+    0x00000af0   0x00000af0   0x00000020   Data   RO            9    .rodata.gau32ClkSrcTbl  system_m031series.o
+    0x00000b10   0x00000b10   0x00000020   Data   RO          313    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00000b30, Size: 0x00000010, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000b30   0x00000004   Data   RW            7    .data.CyclesPerUs   system_m031series.o
+    0x20000004   0x00000b34   0x00000004   Data   RW            8    .data.PllClock      system_m031series.o
+    0x20000008   0x00000b38   0x00000004   Data   RW            6    .data.SystemCoreClock  system_m031series.o
+    0x2000000c   0x00000b3c   0x00000004   Data   RW          119    .data.g_ICE_Conneced  retarget.o
+
+
+    Execution Region ER_ZI (Exec base: 0x20000010, Load base: 0x00000b40, Size: 0x00000258, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000010        -       0x00000054   Zero   RW          120    .bss.__stdout       retarget.o
+    0x20000064        -       0x00000004   Zero   RW           73    .bss.g_CLK_i32ErrCode  clk.o
+    0x20000068        -       0x00000200   Zero   RW           17    STACK               startup_m031series.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       580         64         12          0          4      14005   clk.o
+       192         24          0          0          0       4059   clk_config.o
+       248          0          0          0          0       1726   gpio.o
+       340         40          0          0          0      10349   main.o
+        92         12          0          0          0       3321   pin_config.o
+       160         28          0          4         84       3706   retarget.o
+       128         50        192          0        512        808   startup_m031series.o
+       252         48         32         12          0       4235   system_m031series.o
+       380         44         28          0          0      10288   uart.o
+
+    ----------------------------------------------------------------------
+      2372        310        296         16        600      52497   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        48         10          0          0          0         68   init.o
+        32          4          0          0          0         68   puts.o
+        62          0          0          0          0         72   uidiv_div0.o
+
+    ----------------------------------------------------------------------
+       196         22          0          0          0        208   Library Totals
+         4          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       192         22          0          0          0        208   mc_p.l
+
+    ----------------------------------------------------------------------
+       196         22          0          0          0        208   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      2568        332        296         16        600      52673   Grand Totals
+      2568        332        296         16        600      52673   ELF Image Totals
+      2568        332        296         16          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 2864 (   2.80kB)
+    Total RW  Size (RW Data + ZI Data)               616 (   0.60kB)
+    Total ROM Size (Code + RO Data + RW Data)       2880 (   2.81kB)
+
+==============================================================================
+
