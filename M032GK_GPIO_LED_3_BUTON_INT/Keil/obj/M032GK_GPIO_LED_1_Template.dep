@@ -1,0 +1,481 @@
+Dependencies for Project 'M032GK_GPIO_LED_1', Target 'Template': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (..\..\M031BSP\Library\Device\Nuvoton\M031\Source\system_M031Series.c)(0x675971DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/system_m031series.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+F (..\..\M031BSP\Library\Device\Nuvoton\M031\Source\ARM\startup_M031Series.s)(0x675971DE)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541"-o ./obj/startup_m031series.o)
+F (..\..\M031BSP\Library\StdDriver\src\clk.c)(0x675971DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/clk.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+F (..\..\M031BSP\Library\StdDriver\src\gpio.c)(0x675971DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/gpio.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+F (..\..\M031BSP\Library\StdDriver\src\retarget.c)(0x675971DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/retarget.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+F (..\..\M031BSP\Library\StdDriver\src\timer.c)(0x675971DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/timer.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+F (..\..\M031BSP\Library\StdDriver\src\uart.c)(0x675971DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/uart.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+F (..\main.c)(0x67BAAD34)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/main.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+I (..\clk_config.h)(0x67AE55D0)
+I (..\pin_config.h)(0x67B4EE47)
+F (..\clk_config.c)(0x67BAAAA1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/clk_config.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+I (..\clk_config.h)(0x67AE55D0)
+F (..\clk_config.h)(0x67AE55D0)()
+F (..\pin_config.c)(0x67BAAA5E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O2 -ffunction-sections -I ../../M031BSP/Library/CMSIS/Core/Include -I ../../M031BSP/Library/Device/Nuvoton/M031/Include -I ../../M031BSP/Library/StdDriver/inc-IC:/Users/mgokce/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25_bak_0/Device/M031/Include-IC:/Users/mgokce/AppData/Local/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="541"-o ./obj/pin_config.o -MMD)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\CMSIS\Core\Include\core_cm0.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\sys.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\clk.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\acmp.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\adc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\crc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\ebi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\fmc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\gpio.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pdma.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\pwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\bpwm.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\qspi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\rtc.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\hdiv.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\timer.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usbd.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_i2c.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_spi.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\usci_uart.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wdt.h)(0x675971DE)
+I (..\..\M031BSP\Library\StdDriver\inc\wwdt.h)(0x675971DE)
+I (..\pin_config.h)(0x67B4EE47)
+F (..\pin_config.h)(0x67B4EE47)()
