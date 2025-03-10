@@ -1,0 +1,181 @@
+/****************************************************************************
+ * @file     pin_config.ncfg
+ * @version  V1.33.0005
+ * @Date     Mon Mar 03 2025 15:04:28 GMT+0300 (GMT+03:00)
+ * @brief    NuMicro config file
+ *
+ * @note Please do not modify this file.
+ *       Otherwise, it may not be loaded successfully.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Copyright (C) 2013-2025 Nuvoton Technology Corp. All rights reserved.
+*****************************************************************************/
+MCU:M032KG8AE(LQFP128)
+Pin1:ADC0_CH5
+Pin2:ADC0_CH4
+Pin3:ADC0_CH3
+Pin4:ADC0_CH2
+Pin5:PC.12
+Pin6:PC.11
+Pin7:PC.10
+Pin8:PC.9
+Pin9:PB.1
+Pin10:PB.0
+Pin11:VSS
+Pin12:VDD
+Pin13:PA.11
+Pin14:PA.10
+Pin15:PA.9
+Pin16:PA.8
+Pin17:PC.13
+Pin18:PD.12
+Pin19:PD.11
+Pin20:PD.10
+Pin21:PG.2
+Pin22:PG.3
+Pin23:PG.4
+Pin24:PF.11
+Pin25:PF.10
+Pin26:PF.9
+Pin27:PF.8
+Pin28:PF.7
+Pin29:PF.6
+Pin30:PF.14
+Pin31:PF.5
+Pin32:PF.4
+Pin33:PH.4
+Pin34:PH.5
+Pin35:PH.6
+Pin36:PH.7
+Pin37:PF.3
+Pin38:PF.2
+Pin39:VSS
+Pin40:VDD
+Pin41:PE.8
+Pin42:PE.9
+Pin43:PE.10
+Pin44:PE.11
+Pin45:PE.12
+Pin46:PE.13
+Pin47:PC.8
+Pin48:PC.7
+Pin49:PC.6
+Pin50:PA.7
+Pin51:PA.6
+Pin52:VSS
+Pin53:VDD
+Pin54:PD.15
+Pin55:PA.5
+Pin56:PA.4
+Pin57:PA.3
+Pin58:PA.2
+Pin59:PA.1
+Pin60:PA.0
+Pin61:PF.15
+Pin62:PE.14
+Pin63:PE.15
+Pin64:nRESET
+Pin65:ICE_DAT
+Pin66:ICE_CLK
+Pin67:PD.9
+Pin68:PD.8
+Pin69:PC.5
+Pin70:PC.4
+Pin71:PC.3
+Pin72:PC.2
+Pin73:PC.1
+Pin74:PC.0
+Pin75:VSS
+Pin76:VDD
+Pin77:PG.9
+Pin78:PG.10
+Pin79:PG.11
+Pin80:PG.12
+Pin81:PG.13
+Pin82:PG.14
+Pin83:PG.15
+Pin84:PD.7
+Pin85:PD.6
+Pin86:PD.5
+Pin87:PD.4
+Pin88:PD.3
+Pin89:PD.2
+Pin90:PD.1
+Pin91:PD.0
+Pin92:PD.13
+Pin93:USB_VBUS
+Pin94:USB_D-
+Pin95:USB_D+
+Pin96:USB_VDD33_CAP
+Pin97:PE.7
+Pin98:PE.6
+Pin99:PE.5
+Pin100:PE.4
+Pin101:PE.3
+Pin102:PE.2
+Pin103:VSS
+Pin104:VDD
+Pin105:PE.1
+Pin106:PE.0
+Pin107:PH.8
+Pin108:PH.9
+Pin109:PH.10
+Pin110:PH.11
+Pin111:PD.14
+Pin112:VSS
+Pin113:LDO_CAP
+Pin114:VDD
+Pin115:PC.14
+Pin116:ADC0_CH15
+Pin117:PB.14
+Pin118:UART0_TXD
+Pin119:UART0_RXD
+Pin120:AVDD
+Pin121:VREF
+Pin122:AVSS
+Pin123:PB.11
+Pin124:PB.10
+Pin125:PB.9
+Pin126:PB.8
+Pin127:PB.7
+Pin128:PB.6
+GPIOpin:28
+GPIOpin:29
+GPIOpin:27
+GPIOpin:26
+GPIOpin:8
+GPIOpin:6
+GPIOpin:5
+GPIOpin:4
+UserDefined:PF.8=>LED5
+UserDefined:PF.7=>LED6
+UserDefined:PF.6=>LED7
+UserDefined:PF.14=>LED8
+UserDefined:PB.1=>NEXT_BUTTON
+UserDefined:PC.12=>PREV_BUTTON
+UserDefined:PC.10=>STOP_BUTTON
+UserDefined:PC.11=>PLAY_BUTTON
+UserDefined:ADC0_CH3=>POT1
+UserDefined:ADC0_CH4=>POT2
+UserDefined:ADC0_CH5=>POT3
+UserDefined:ADC0_CH2=>NTC
+UserDefined:ADC0_CH15=>LDR
+SYS->GPA_MFPH = 0x00000000
+SYS->GPA_MFPL = 0x00000000
+SYS->GPB_MFPH = 0x10660000
+SYS->GPB_MFPL = 0x00111100
+SYS->GPC_MFPH = 0x00000000
+SYS->GPC_MFPL = 0x00000000
+SYS->GPD_MFPH = 0x00000000
+SYS->GPD_MFPL = 0x00000000
+SYS->GPE_MFPH = 0x00000000
+SYS->GPE_MFPL = 0x00000000
+SYS->GPF_MFPH = 0x00000000
+SYS->GPF_MFPL = 0x000000EE
+SYS->GPG_MFPH = 0x00000000
+SYS->GPG_MFPL = 0x00000000
+SYS->GPH_MFPH = 0x00000000
+SYS->GPH_MFPL = 0x00000000
+LockedPins=[]
+/*** (C) COPYRIGHT 2013-2025 Nuvoton Technology Corp. ***/
