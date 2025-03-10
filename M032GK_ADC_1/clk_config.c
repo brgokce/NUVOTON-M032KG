@@ -30,7 +30,7 @@ UART0=Bus Clock(PCLK0):72MHz/Engine Clock:72MHz
 void clk_config_init_adc(void)
 {
     CLK_EnableModuleClock(ADC_MODULE);
-    CLK_SetModuleClock(ADC_MODULE, CLK_CLKSEL2_ADCSEL_PCLK1, CLK_CLKDIV0_ADC(2));
+    CLK_SetModuleClock(ADC_MODULE, CLK_CLKSEL2_ADCSEL_HIRC, CLK_CLKDIV0_ADC(2));
 
     return;
 }

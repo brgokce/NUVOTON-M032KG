@@ -85,6 +85,7 @@ PF.14:LED8(Pin:30)
 #define LDR ADC0_CH15
 void pin_config_init_adc0(void)
 {
+// Yukaridaki kodlar sonradan ekledi, eger yukaridaki kod buraya eklenmezse hata veriyor.  
     SYS->GPB_MFPH &= ~(SYS_GPB_MFPH_PB15MFP_Msk);
     SYS->GPB_MFPH |= (SYS_GPB_MFPH_PB15MFP_ADC0_CH15);
     SYS->GPB_MFPL &= ~(SYS_GPB_MFPL_PB5MFP_Msk | SYS_GPB_MFPL_PB4MFP_Msk | SYS_GPB_MFPL_PB3MFP_Msk | SYS_GPB_MFPL_PB2MFP_Msk);
@@ -198,12 +199,13 @@ void pin_config_init(void)
     //SYS->GPH_MFPH = 0x00000000UL;
     //SYS->GPH_MFPL = 0x00000000UL;
 
-    pin_config_init_adc0();
+
     pin_config_init_ice();
     pin_config_init_pb();
     pin_config_init_pc();
     pin_config_init_pf();
     pin_config_init_uart0();
+		pin_config_init_adc0();
 
     return;
 }

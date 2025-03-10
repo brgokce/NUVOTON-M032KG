@@ -21,6 +21,7 @@ void led_animasyon1(void);
 void led_animasyon2(void);
 void led_animasyon3(void);
 void led_animasyon4(void);
+void ADC_IRQHandler(void);
 
 static void delay(){
 CLK_SysTickDelay(100000); // 100ms
@@ -83,16 +84,16 @@ int main()
 	 
 	 
 	  uint8_t  u8Option;
-    ADC_POWER_ON(ADC);
+
 	  printf("\n");
     printf("+----------------------------------------------------------------------+\n");
-    printf("|                     ADC single mode sample code                      |\n");
+    printf("|                     MERHABA MEKATRONIKCILER                     |\n");
     printf("+----------------------------------------------------------------------+\n");
 
     /* Enable ADC converter */
 
 	 
-	 
+	  ADC_POWER_ON(ADC);
 		
     while(1){
             /* Set input mode as single-end, Single mode, and select channel 3 */
@@ -110,7 +111,7 @@ int main()
             ADC_START_CONV(ADC);
 
             /* Wait ADC interrupt (g_u32AdcIntFlag will be set at IRQ_Handler function) */
-//            while(g_u32AdcIntFlag == 0);
+            while(g_u32AdcIntFlag == 0);
 
             /* Disable the sample module interrupt */
             ADC_DISABLE_INT(ADC, ADC_ADF_INT);
@@ -118,13 +119,45 @@ int main()
             /* Get the conversion result of ADC channel 2 */
             i32ConversionData = ADC_GET_CONVERSION_DATA(ADC, 3);
             printf("Conversion result of channel 3: 0x%X (%d)\n\n", i32ConversionData, i32ConversionData);
-						delay();
-						delay();
-						delay();
-						delay();
+					
+					//	ADC_Close(ADC); 
+						
+						// /* Set input mode as differential, Single mode, and select channel 2 */
+            ADC_Open(ADC, ADC_ADCR_DIFFEN_SINGLE_END, ADC_ADCR_ADMD_SINGLE, BIT4);
+
+            /* Clear the A/D interrupt flag for safe */
+            ADC_CLR_INT_FLAG(ADC, ADC_ADF_INT);
+
+            /* Enable the sample module interrupt */
+            ADC_ENABLE_INT(ADC, ADC_ADF_INT);  /* Enable sample module A/D interrupt. */
+            NVIC_EnableIRQ(ADC_IRQn);
+
+            /* Reset the ADC indicator and trigger sample module to start A/D conversion */
+            g_u32AdcIntFlag = 0;
+            ADC_START_CONV(ADC);
+
+            /* Wait ADC interrupt (g_u32AdcIntFlag will be set at IRQ_Handler function) */
+            while(g_u32AdcIntFlag == 0);
+
+            /* Disable the sample module interrupt */
+            ADC_DISABLE_INT(ADC, ADC_ADF_INT);
+
+            /* Get the conversion result of channel 2 */
+            i32ConversionData = ADC_GET_CONVERSION_DATA(ADC, 4);
+            printf("Conversion result of channel 4: 0x%X (%d)\n\n", i32ConversionData, i32ConversionData);
+			//			ADC_Close(ADC); 
+
+						delay();delay();
 						delay();
 						
 		}
+}
+
+
+void ADC_IRQHandler(void)
+{
+    g_u32AdcIntFlag = 1;
+    ADC_CLR_INT_FLAG(ADC, ADC_ADF_INT); /* Clear the A/D interrupt flag */
 }
 
 /*----------------------------------------------------------------------*/
